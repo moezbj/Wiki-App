@@ -56,7 +56,7 @@ $(document).ready(function () {
           if (page.thumbnail) pageElement.append($('<img>').attr('width', 150).attr('src', page.thumbnail.source))
                     // get the article text
           pageElement.append($('<p>').text(page.extract))
-                    
+
           pageElement.append($('<hr>'))
 
           articles.append(pageElement)
